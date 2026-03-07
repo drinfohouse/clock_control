@@ -32,22 +32,25 @@ O Windows, de forma nativa, não oferece um controle direto e simplificado sobre
 - Insira o valor desejado em MHz (Ex: 2500) ou 0 para resetar.
 - Monitore a mudança em tempo real utilizando ferramentas como o Core Temp ou CPU-Z.
 
-## 📊 Monitoramento
+## 📊 5. Monitoramento
 Para monitoramento de temperatura recomendamos Core Temp.
 https://www.alcpu.com/CoreTemp/
 
 
-## ⚖️ Licença
+## ⚖️ 6. Licença
 - Uso Comercial: O script pode ser utilizado em serviços técnicos e empresas de manutenção.
 - Modificação: O código pode ser alterado e adaptado para necessidades específicas de bancada.
 - Distribuição: Você pode compartilhar o software.
 
 Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**. O desenvolvedor não se responsabiliza por danos decorrentes do uso da ferramenta. A manutenção dos créditos e do aviso de licença é obrigatória em todas as cópias. Veja o arquivo LICENSE para mais detalhes.
 
-## 👨‍💻 Autor
+## 👨‍💻 7. Autor
 **Daniel Frutos** *Proprietário da DrInfoHouse*
 
 Especialista em manutenção de hardware e otimização de sistemas, focado em entregar soluções baseadas em dados reais e integridade de componentes.
 
 - Site: https://sites.google.com/view/drinfohouse/home
 - Youtube: https://www.youtube.com/@drinfohouse
+
+Contato:
+dr.ih@outlook.com
