@@ -1,33 +1,45 @@
-🚀 Clock Control v1.0 - DrInfoHouse
+# DrinfoHouse: Clock Control
+Aplicativo para limitação de clock de CPU.
 
-Clock Control é uma ferramenta de automação via Batch/PowerShell desenvolvida para técnicos e entusiastas que precisam de controle total sobre a frequência térmica de processadores. O foco é a estabilidade do hardware através da limitação estratégica do clock máximo [cite: 2026-03-06].
-🛠️ Funcionalidades Principais
+## 🚀 1. Descrição
+**Clock Control** é uma ferramenta de automação via Batch/PowerShell desenvolvida para técnicos e entusiastas que precisam de controle sobre a frequência térmica de processadores. 
 
-    Limitação de Clock: Permite definir o teto de frequência entre 1000 MHz e 5000 MHz para evitar superaquecimento.
+O Windows, de forma nativa, não oferece um controle direto e simplificado sobre a frequência do processador. Embora o sistema gerencie o desempenho, ele prioriza a entrega de potência, o que pode resultar em altas temperaturas em ambientes de manutenção ou em notebooks com sistemas de arrefecimento limitados.
 
-    Modo Reset: Digitando 0, o script remove todas as travas e restaura o desempenho máximo de fábrica do processador.
+## 🛠️ 2. Funcionalidades Principais
 
-    Auto-Elevação: Sistema inteligente que detecta a falta de privilégios de administrador e solicita permissão ao usuário para reiniciar com acesso total.
+- **Limitação de Clock**: Permite definir o teto de frequência entre 1000 MHz e 5000 MHz.
 
-    Interface Dinâmica: Buffer de console autoajustável para uma leitura limpa dos logs de execução.
 
-📋 Como Usar
+- **Reset**: O script contém a opção de RESET que remove todas as travas e restaura o desempenho máximo de fábrica do processador.
 
-    Baixe o arquivo clock_control.bat na aba Releases.
+- **Auto-Elevação**: Sistema inteligente que detecta e auxilia na falta de privilégios de Administrador 
 
-    Execute o arquivo (o sistema solicitará permissão de Administrador).
+- **Error Handling**: identifica erros de digitação e auxilia na correção.
 
-    Insira o valor desejado em MHz (Ex: 2500) ou 0 para resetar.
+## 🛡️ 3. Vantagens de Controle de Clock
+- **Térmica**: alto poder de redução de temperatura.
 
-    Monitore a mudança em tempo real utilizando ferramentas como o Core Temp ou CPU-Z.
+- **Longevidade de Hardware**: Diminui o estresse sobre os componentes eletrônicos e o sistema de arrefecimento (fans e dissipadores), especialmente em notebooks com projetos térmicos limitados.
 
-⚖️ Licença
+- **Acústica**: tendencia de ambiente mais silencioso.
 
-Este projeto está sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
-Por que estas mudanças melhoram o seu README:
+- **Vcore**: não demanda de alterações de alimentação do CPU, funcionamento "tal qual"
 
-    Escaneabilidade: O uso de emojis e negrito ajuda o técnico a encontrar a informação que precisa em segundos [cite: 2026-01-29].
+## 📋 4. Como Usar
+- Baixe o arquivo clock_control.bat na aba Releases.
+- Execute o arquivo no modo Administrado.
+- Insira o valor desejado em MHz (Ex: 2500) ou 0 para resetar.
+- Monitore a mudança em tempo real utilizando ferramentas como o Core Temp ou CPU-Z.
 
-    Dados Técnicos: Você deixa claro o range de operação (1000-5000), o que evita que usuários tentem valores perigosos para o sistema.
+## 📊 Monitoramento
+Para monitoramento de temperatura recomendamos Core Temp.
+https://www.alcpu.com/CoreTemp/
 
-    Magnitude dos Fatos: Ao citar o Core Temp, você tira a dúvida do campo da "opinião" e move o usuário para a verificação factual dos dados [cite: 2026-03-06].
+
+## ⚖️ Licença
+- Uso Comercial: O script pode ser utilizado em serviços técnicos e empresas de manutenção.
+- Modificação: O código pode ser alterado e adaptado para necessidades específicas de bancada.
+- Distribuição: Você pode compartilhar o software.
+
+Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**. O desenvolvedor não se responsabiliza por danos decorrentes do uso da ferramenta. A manutenção dos créditos e do aviso de licença é obrigatória em todas as cópias. Veja o arquivo LICENSE para mais detalhes.
