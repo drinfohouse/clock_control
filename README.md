@@ -45,7 +45,7 @@ https://www.alcpu.com/CoreTemp/
 Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**. O desenvolvedor não se responsabiliza por danos decorrentes do uso da ferramenta. A manutenção dos créditos e do aviso de licença é obrigatória em todas as cópias. Veja o arquivo LICENSE para mais detalhes.
 
 ## 👨‍💻 7. Autor
-**Daniel Frutos** *Proprietário da DrInfoHouse*
+**Daniel** *Proprietário da DrInfoHouse*
 
 Especialista em manutenção de hardware e otimização de sistemas, focado em entregar soluções baseadas em dados reais e integridade de componentes.
 
