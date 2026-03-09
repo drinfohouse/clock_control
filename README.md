@@ -38,11 +38,12 @@ https://www.alcpu.com/CoreTemp/
 
 
 ## ⚖️ 6. Licença
+MIT License
 - Uso Comercial: O script pode ser utilizado em serviços técnicos e empresas de manutenção.
 - Modificação: O código pode ser alterado e adaptado para necessidades específicas de bancada.
 - Distribuição: Você pode compartilhar o software.
 
-Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**. O desenvolvedor não se responsabiliza por danos decorrentes do uso da ferramenta. A manutenção dos créditos e do aviso de licença é obrigatória em todas as cópias. Veja o arquivo LICENSE para mais detalhes.
+Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**.
 
 ## 👨‍💻 7. Autor
 **Daniel** *Proprietário da DrInfoHouse*
