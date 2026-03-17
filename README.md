@@ -1,12 +1,17 @@
 # DrinfoHouse: Clock Control
 Aplicativo para aplicação de limite máximo de clock de processadores AMD e INTEL.
 
+<br>
+
 ## 🚀 1. Descrição
 **Clock Control** é uma ferramenta de automação via Batch/PowerShell desenvolvida para técnicos e entusiastas que precisam de controle sobre a frequência térmica de processadores. 
 
 O Windows, de forma nativa, não oferece um controle direto e simplificado sobre a frequência do processador. Embora o sistema gerencie o desempenho, ele prioriza a entrega de potência, o que pode resultar em altas temperaturas em ambientes de manutenção ou em notebooks com sistemas de arrefecimento limitados.
 
+<br>
 <img width="604" height="758" alt="image" src="https://github.com/user-attachments/assets/ccb2d6f7-18b7-41b6-8b19-847eac2df7af" />
+<br>
+<br>
 
 ## 🛠️ 2. Funcionalidades Principais
 
@@ -18,6 +23,8 @@ O Windows, de forma nativa, não oferece um controle direto e simplificado sobre
 - **Auto-Elevação**: Sistema inteligente que detecta e auxilia na falta de privilégios de Administrador 
 
 - **Error Handling**: identifica erros de digitação e auxilia na correção.
+<br>
+
 
 ## 🛡️ 3. Vantagens de Controle de Clock
 - **Térmica**: alto poder de redução de temperatura.
@@ -27,16 +34,21 @@ O Windows, de forma nativa, não oferece um controle direto e simplificado sobre
 - **Acústica**: tendencia de ambiente mais silencioso.
 
 - **Vcore**: não demanda de alterações de alimentação do CPU, funcionamento "tal qual"
+<br>
 
 ## 📋 4. Como Usar
 - Baixe o arquivo clock_control.bat na aba Releases.
 - Execute o arquivo no modo Administrado.
 - Insira o valor desejado em MHz (Ex: 2500) ou 0 para resetar.
 - Monitore a mudança em tempo real utilizando ferramentas como o Core Temp ou CPU-Z.
+<br>
+<br>
 
 ## 📊 5. Monitoramento
 Para monitoramento de temperatura recomendamos Core Temp.
 https://www.alcpu.com/CoreTemp/
+<br>
+<br>
 
 
 ## ⚖️ 6. Licença
@@ -46,6 +58,8 @@ MIT License
 - Distribuição: Você pode compartilhar o software.
 
 Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**.
+<br>
+<br>
 
 ## 👨‍💻 7. Autor
 **Daniel** *Proprietário da DrInfoHouse*
@@ -54,6 +68,7 @@ Especialista em manutenção de hardware e otimização de sistemas, focado em e
 
 - Site: https://sites.google.com/view/drinfohouse/home
 - Youtube: https://www.youtube.com/@drinfohouse
+<br>
 
 Contato:
 dr.ih@outlook.com
