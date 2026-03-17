@@ -1,5 +1,5 @@
 # DrinfoHouse: Clock Control
-Aplicativo para limitação de clock de CPU.
+Aplicativo para aplicação de limite máximo de clock de processadores AMD e INTEL.
 
 ## 🚀 1. Descrição
 **Clock Control** é uma ferramenta de automação via Batch/PowerShell desenvolvida para técnicos e entusiastas que precisam de controle sobre a frequência térmica de processadores. 
