@@ -6,6 +6,8 @@ Aplicativo para limitação de clock de CPU.
 
 O Windows, de forma nativa, não oferece um controle direto e simplificado sobre a frequência do processador. Embora o sistema gerencie o desempenho, ele prioriza a entrega de potência, o que pode resultar em altas temperaturas em ambientes de manutenção ou em notebooks com sistemas de arrefecimento limitados.
 
+<img width="604" height="758" alt="image" src="https://github.com/user-attachments/assets/ccb2d6f7-18b7-41b6-8b19-847eac2df7af" />
+
 ## 🛠️ 2. Funcionalidades Principais
 
 - **Limitação de Clock**: Permite definir o teto de frequência entre 1000 MHz e 5000 MHz.
