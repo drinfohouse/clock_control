@@ -1,74 +1,44 @@
-# DrinfoHouse: Clock Control
-Aplicativo para aplicação de limite máximo de clock de processadores AMD e INTEL.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/drinfohouse/clock_control/main/clock_control_print_screen.png" alt="Interface do Clock Control" width="500">
+</p>
 
-<br>
+### DrInfoHouse: Clock Control
+#### Automação para Limitação Térmica e Eficiência de Processadores
 
-## 🚀 1. Descrição
-**Clock Control** é uma ferramenta de automação via Batch/PowerShell desenvolvida para técnicos e entusiastas que precisam de controle sobre a frequência térmica de processadores. 
+O **Clock Control** é uma ferramenta de automação desenvolvida via Batch/PowerShell para técnicos e entusiastas que necessitam de controle rigoroso sobre a frequência de operação de processadores AMD e INTEL.
 
-O Windows, de forma nativa, não oferece um controle direto e simplificado sobre a frequência do processador. Embora o sistema gerencie o desempenho, ele prioriza a entrega de potência, o que pode resultar em altas temperaturas em ambientes de manutenção ou em notebooks com sistemas de arrefecimento limitados.
+#### 🚀 1. Por que usar o Clock Control?
+O Windows, de forma nativa, prioriza a entrega máxima de potência, o que frequentemente resulta em altas temperaturas e ruído excessivo, especialmente em notebooks com sistemas de arrefecimento limitados. Esta ferramenta oferece um controle direto e simplificado, permitindo estabilizar o sistema sem a necessidade de configurações complexas na BIOS.
 
-<br>
-<img width="604" height="758" alt="image" src="https://github.com/user-attachments/assets/ccb2d6f7-18b7-41b6-8b19-847eac2df7af" />
-<br>
-<br>
+#### 🛠️ 2. Funcionalidades Principais
+* **Limitação de Clock:** Permite definir o teto de frequência entre 1000 MHz e 5000 MHz.
+* **Suporte a Arquiteturas Híbridas:** Identifica e atua sobre núcleos de Performance (P-Cores) e Eficiência (E-Cores) em processadores modernos.
+* **Auto-Elevação:** Sistema inteligente que detecta e solicita privilégios de Administrador automaticamente.
+* **Modo Reset:** Comando simplificado (valor 0) para restaurar instantaneamente as configurações originais de fábrica.
+* **Tratamento de Erros:** Identifica falhas de digitação e auxilia na correção imediata.
 
-## 🛠️ 2. Funcionalidades Principais
+#### 🛡️ 3. Benefícios Práticos
+* **Gestão Térmica:** Redução drástica de temperatura em ambientes de alta carga.
+* **Longevidade de Hardware:** Diminuição do estresse térmico sobre componentes sensíveis e ventoinhas.
+* **Conforto Acústico:** Redução do ruído dos fans devido à menor demanda de resfriamento.
+* **Eficiência Energética:** Otimização do consumo sem necessidade de alterar tensões (Vcore) manualmente.
 
-- **Limitação de Clock**: Permite definir o teto de frequência entre 1000 MHz e 5000 MHz.
+#### 📥 4. Como Baixar
+O aplicativo pode ser baixado diretamente na aba [**Releases**](https://github.com/drinfohouse/clock_control/releases) deste repositório. Procure pelo arquivo `clock_control.bat` na versão mais recente.
 
+#### 📋 5. Como Operar
+1. Após baixar, execute o arquivo como **Administrador**.
+2. Insira a frequência desejada em MHz (Ex: 2500 para 2.5GHz) ou 0 para Reset.
+3. Monitore a alteração em tempo real com ferramentas como **Core Temp** ou **CPU-Z**.
 
-- **Reset**: O script contém a opção de RESET que remove todas as travas e restaura o desempenho máximo de fábrica do processador.
+#### Sobre o Autor
+**Daniel** é o fundador da **DrInfoHouse** e especialista em hardware. Com mais de 20 anos de experiência, desenvolve ferramentas e materiais didáticos focados na integridade de hardware e otimização de performance baseada em dados reais.
 
-- **Auto-Elevação**: Sistema inteligente que detecta e auxilia na falta de privilégios de Administrador 
+#### Licença e Uso
+Este software é distribuído sob a **Licença MIT**, permitindo uso comercial, modificação e redistribuição, desde que mantidos os créditos de autoria.
 
-- **Error Handling**: identifica erros de digitação e auxilia na correção.
-<br>
-
-
-## 🛡️ 3. Vantagens de Controle de Clock
-- **Térmica**: alto poder de redução de temperatura.
-
-- **Longevidade de Hardware**: Diminui o estresse sobre os componentes eletrônicos e o sistema de arrefecimento (fans e dissipadores), especialmente em notebooks com projetos térmicos limitados.
-
-- **Acústica**: tendencia de ambiente mais silencioso.
-
-- **Vcore**: não demanda de alterações de alimentação do CPU, funcionamento "tal qual"
-<br>
-
-## 📋 4. Como Usar
-- Baixe o arquivo clock_control.bat na aba Releases.
-- Execute o arquivo no modo Administrado.
-- Insira o valor desejado em MHz (Ex: 2500) ou 0 para resetar.
-- Monitore a mudança em tempo real utilizando ferramentas como o Core Temp ou CPU-Z.
-<br>
-<br>
-
-## 📊 5. Monitoramento
-Para monitoramento de temperatura recomendamos Core Temp.
-https://www.alcpu.com/CoreTemp/
-<br>
-<br>
-
-
-## ⚖️ 6. Licença
-MIT License
-- Uso Comercial: O script pode ser utilizado em serviços técnicos e empresas de manutenção.
-- Modificação: O código pode ser alterado e adaptado para necessidades específicas de bancada.
-- Distribuição: Você pode compartilhar o software.
-
-Importante: O software é fornecido "como está", **sem garantias de qualquer tipo**.
-<br>
-<br>
-
-## 👨‍💻 7. Autor
-**Daniel** *Proprietário da DrInfoHouse*
-
-Especialista em manutenção de hardware e otimização de sistemas, focado em entregar soluções baseadas em dados reais e integridade de componentes.
-
-- Site: https://sites.google.com/view/drinfohouse/home
-- Youtube: https://www.youtube.com/@drinfohouse
-<br>
-
-Contato:
-dr.ih@outlook.com
+---
+<p align="center">
+  <a href="https://github.com/drinfohouse/empresa">🏠 Página Principal DrInfoHouse</a> | 
+  <a href="https://youtube.com/@drinfohouse">🎥 Canal Técnico no YouTube</a>
+</p>
